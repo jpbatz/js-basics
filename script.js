@@ -42,7 +42,7 @@ var dataTypes = [1,true,"Z",undefined,person,null];
 var Dog = function(name) {
   this.name = name;
   this.bark = function() {
-  	console.log( "grrrruuufff!");
+  	console.log(this.name + " says, \"grrrruuufff!\"");
   };
 };
 
